@@ -23,7 +23,7 @@ package "git"
 
 # download git repo for hardening page
 git "/var/www/hardening" do
- repository "https://github.com/TelekomLabs/TelekomLabs.github.io.git"
+ repository "https://github.com/hardening-io/hardening-io.github.io"
  revision "master"
  action :checkout
  user "root"
