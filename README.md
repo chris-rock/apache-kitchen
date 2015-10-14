@@ -1,14 +1,20 @@
 # apache2 hardening kitchen
 
-## Use with vagrant
-
-### Prerequisites
+## Prerequisites
 
  - Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
  - Install [Vagrant](https://www.vagrantup.com/downloads.html)
  - Install [ChefDK](https://downloads.getchef.com/chef-dk)
  - Install Vagrant Berkshelf via `vagrant plugin install vagrant-berkshelf`
  - Install Vagrant Omnibus via `vagrant plugin install vagrant-omnibus`
+ - Recommended: `vagrant plugin install vagrant-cachier`
+
+## Usage
+
+```bash
+vagrant up
+open http://localhost:8081
+```
 
 ## License and Author
 
